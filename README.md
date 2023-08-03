@@ -9,7 +9,7 @@ This is primarily just an excuse to do some testing of how package development w
 ## Functions
 * hex(x) - Convert an Int to a UInt. If passed a Float, it will floor it to an Int and then do the conversion.
 * dec(x) - Convert an UInt to an Int. If passed an Int or a Float, the floored value will be returned.
-* float(x) - Convert an Int or UInt to a Float.
+* flt(x) - Convert an Int or UInt to a Float (formerly float(x), changed to avoid name clash in Base julia.
 
 These functions are just wrappers for the convert() and floor() functions.
 
