@@ -7,7 +7,7 @@ hex(x)=convert(UInt,floor(UInt,x))
 dec(x)=convert(Int,floor(Int,x))
 
 # convert and Int or UInt to a Float
-float(x)=convert(AbstractFloat,x)
+flt(x)=convert(AbstractFloat,x)
 
 # test function
 helloworld()=println("Hello World!")
