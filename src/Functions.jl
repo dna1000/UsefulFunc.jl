@@ -1,13 +1,34 @@
-# function to convert an Int or indeed float (via dropping the decimal part)
-# to a UInt 'hex'
+"""
+    hex(x::AnyNumber)
+
+    Function will convert a UInt, Int or Float to an UInt (hex).
+
+Return UInt.
+"""
 hex(x)=convert(UInt,floor(UInt,x))
 
-# function to convert a UInt 'hex' to an Int, if given as an Int then output
-# will return the input, ie no converion
+
+"""
+    dec(x::AnyNumber)
+
+    Function will convert a UInt, Int or Float to an Int.
+
+Return Int.
+"""
 dec(x)=convert(Int,floor(Int,x))
 
-# convert and Int or UInt to a Float
+"""
+    dec(x::AnyNumber)
+
+    Function will convert a UInt, Int or Float to an Float.
+
+Return Float.
+"""
 flt(x)=convert(AbstractFloat,x)
 
-# test function
+"""
+    helloworld()
+
+Prints "Hello World!"
+"""
 helloworld()=println("Hello World!")
