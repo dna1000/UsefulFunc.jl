@@ -1,7 +1,7 @@
 name = "UsefulFunc"
 uuid = "b96363c1-cc9e-4840-9560-76ad3f0b7be3"
 authors = ["Dave Austin"]
-version = "1.0.1-DEV"
+version = "1.0.2-DEV"
 
 [compat]
 julia = "1"
