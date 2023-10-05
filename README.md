@@ -1,5 +1,7 @@
 # UsefulFunc.jl
 
+[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
+
 [![Build Status](https://github.com/dna1000/UsefulFunc.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/dna1000/UsefulFunc.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 This package is a collection of functions to save me a bit of time when writing code or using Julia as a glorified calculator.
